@@ -119,7 +119,7 @@ public class Exercises {
         String queueString = "";
         queueString = queue.toString();
         System.out.println("The string representation of the queue is: " + queueString);
-        System.out.println();
+        System.out.println("The end");
     }
 
     public PriorityQueue<String> getPriorityQueue()
