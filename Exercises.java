@@ -83,6 +83,14 @@ public class Exercises {
         System.out.println();
     }
 
+    public void exercise8(PriorityQueue<String> queue)
+    {
+        System.out.println("8th exercise: Write a Java program to retrieve the first element of the priority queue");
+        System.out.println(queue);
+        System.out.println("The first element is: " + queue.peek());
+        System.out.println();
+    }
+
     public PriorityQueue<String> getPriorityQueue()
     {
         return colours;
