@@ -112,6 +112,16 @@ public class Exercises {
         System.out.println();
     }
 
+    public void exercise11(PriorityQueue<String> queue)
+    {
+        System.out.println("11th exercise: Write a Java program to convert a Priority Queue elements to a string representation");
+        System.out.println(queue);
+        String queueString = "";
+        queueString = queue.toString();
+        System.out.println("The string representation of the queue is: " + queueString);
+        System.out.println();
+    }
+
     public PriorityQueue<String> getPriorityQueue()
     {
         return colours;
