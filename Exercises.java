@@ -62,6 +62,14 @@ public class Exercises {
         System.out.println();
     }
 
+    public void exercise6(PriorityQueue<String> queue)
+    {
+        System.out.println("6th exercise: Write a Java program to count the number of elements in a priority queue");
+        System.out.println(queue);
+        System.out.println("The number of elements are: " + queue.size());
+        System.out.println();
+    }
+
     public PriorityQueue<String> getPriorityQueue()
     {
         return colours;
