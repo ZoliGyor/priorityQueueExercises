@@ -91,6 +91,15 @@ public class Exercises {
         System.out.println();
     }
 
+    public void exercise9(PriorityQueue<String> queue)
+    {
+        System.out.println("9th exercise: Write a Java program to retrieve and remove the first element");
+        System.out.println(queue);
+        System.out.println("I removed the first element, which was: " + queue.poll());
+        System.out.println(queue);
+        System.out.println();
+    }
+
     public PriorityQueue<String> getPriorityQueue()
     {
         return colours;
