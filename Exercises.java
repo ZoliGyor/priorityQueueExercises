@@ -70,6 +70,19 @@ public class Exercises {
         System.out.println();
     }
 
+    public void exercise7(PriorityQueue<String> queue1, PriorityQueue<String> queue2)
+    {
+        System.out.println("7th exercise:  Write a Java program to compare two priority queues");
+        System.out.println(queue1);
+        System.out.println(queue2);
+        if(queue1.size() != queue2.size() || !queue1.containsAll(queue2)){
+            System.out.println("The queues are not the same");
+        }else{
+            System.out.println("The queues are the same");
+        }
+        System.out.println();
+    }
+
     public PriorityQueue<String> getPriorityQueue()
     {
         return colours;

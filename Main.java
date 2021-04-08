@@ -12,5 +12,6 @@ public class Main {
         exercises1.exercise4(exercises1.getPriorityQueue(), "Orange");
         exercises2.exercise5(exercises2.getPriorityQueue());
         exercises1.exercise6(exercises1.getPriorityQueue());
+        exercises1.exercise7(exercises1.getPriorityQueue(), exercises2.getPriorityQueue());
     }
 }
