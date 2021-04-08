@@ -53,6 +53,15 @@ public class Exercises {
         System.out.println();
     }
 
+    public void exercise5(PriorityQueue<String> queue)
+    {
+        System.out.println("5th exrecise: Write a Java program to remove all the elements from a priority queue");
+        System.out.println(queue);
+        queue.removeAll(queue);
+        System.out.println(queue);
+        System.out.println();
+    }
+
     public PriorityQueue<String> getPriorityQueue()
     {
         return colours;
