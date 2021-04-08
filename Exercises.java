@@ -44,6 +44,15 @@ public class Exercises {
         System.out.println();
     }
 
+    public void exercise4(PriorityQueue<String> queue, String element)
+    {
+        System.out.println("4th exercise: Write a Java program to insert a given element into a priority queue");
+        System.out.println(queue);
+        queue.add(element);
+        System.out.println(queue);
+        System.out.println();
+    }
+
     public PriorityQueue<String> getPriorityQueue()
     {
         return colours;
