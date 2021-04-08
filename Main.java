@@ -3,5 +3,6 @@ public class Main {
     {
         Exercises exercises = new Exercises();
         exercises.exercise1();
+        exercises.exercise2(exercises.getPriorityQueue());
     }
 }
