@@ -100,6 +100,18 @@ public class Exercises {
         System.out.println();
     }
 
+    public void exercise10(PriorityQueue<String> queue)
+    {
+        System.out.println("10th exercise: Write a Java program to convert a priority queue to an array containing all of the elements of the queue");
+        System.out.println(queue);
+        String[] array = new String[queue.size()];
+        array = queue.toArray(array);
+        for(int i = 0; i < array.length; i++){
+            System.out.println("The current element of the array is: " + array[i]);
+        }
+        System.out.println();
+    }
+
     public PriorityQueue<String> getPriorityQueue()
     {
         return colours;
